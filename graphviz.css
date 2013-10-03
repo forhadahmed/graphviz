@@ -33,6 +33,10 @@ html {
 	font-size: 12px;
 }
 
+.loading {
+    font-family: arial; font-size: 10px; color: #ccc;
+}
+
 .error {
     width=100%; 
     padding:6px;

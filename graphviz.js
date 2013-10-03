@@ -11,7 +11,7 @@ function display_error(cell, err) {
     cell.html(error.replace("XXX", err));  
 }
 
-function graph_from_dot(textarea, cell) {
+function build_graph(textarea, cell) {
 
     var dot = $.trim(textarea.val());
 
@@ -21,7 +21,7 @@ function graph_from_dot(textarea, cell) {
     
     lastdot = dot;
     
-    cell.html("<span style='font-family: arial; font-size: 10px; color: #ccc'>Loading... </span>");
+    cell.html("<span class='loading'>Loading... </span>");
  
     $.ajax({
         url : "graphviz.php",
