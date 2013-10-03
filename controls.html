@@ -1,0 +1,27 @@
+<div id="controls" style=" position: absolute; width:18%; top: 20px; right: 20px;">
+  <table  width="100%" border="0">
+    <tr>
+      <td width="25%" style="text-align: center"><i id="play-control"    style="font-size: 0.9em; color:#ccc;" class="icon-play"></i></td>
+      <td width="25%" style="text-align: center"><i id="help-control"    style="font-size: 0.9em; color:#ccc;" class="icon-question"></i></td>
+      <td width="25%" style="text-align: center"><i id="gallery-control" style="font-size: 0.9em; color:#ccc;" class="icon-th"></i></td>
+      <td width="25%" style="text-align: center"><i id="menu-control"    style="font-size: 0.9em; color:#ccc;" class="icon-cog"></i></td>
+    </tr>
+  </table>
+</div>
+      
+<script>
+
+$("i").css("cursor", "pointer");
+$("i").mouseenter(function(e) { $(this).css("color", "#999"); });
+$("i").mouseleave(function(e) { $(this).css("color", "#ccc"); });
+
+
+$("#play-control").click(function(e) {
+    graph_from_dot($("#main-code"),  $("#graphcell"));
+});
+
+$("#play-control"   ).tipsy({gravity: 's', title: function() {return "Submit";}});
+$("#help-control"   ).tipsy({gravity: 's', title: function() {return "Help";}});
+$("#gallery-control").tipsy({gravity: 's', title: function() {return "Examples";}});
+$("#menu-control"   ).tipsy({gravity: 's', title: function() {return "Settings";}});
+</script>

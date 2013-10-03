@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+    overflow-y: scroll;
+}
+
+.header {
+    padding-left: 8px; padding-bottom:15px; padding-top:12px;
+}
+
+.main-code {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	width:100%; 
+	resize:none;
+	background-color: #FAFAFA;
+	-moz-appearance:none;
+	outline:none;
+	padding:8px;
+	border:1px solid #E5E5E5;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+.page-title {
+	color: #999; 
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+}
+.page-title-2 {
+	color: #ccc; 
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 12px;
+}
+
+.tipsy {
+    font-size: 10px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    position: absolute;
+    padding: 5px; z-index: 100000;
+}
+ 
+.tipsy-inner { background-color: #000; color: #FFF; max-width: 200px; padding: 3px 6px 4px 6px; text-align: center; }
+.tipsy-inner { border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; }
