@@ -33,6 +33,15 @@ html {
 	font-size: 12px;
 }
 
+.error {
+    width=100%; 
+    padding:6px;
+    font-family:Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; 
+    font-size:11px; 
+    background-color:#FCE9E9;
+    border:1px solid #FF8080;
+}
+
 .tipsy {
     font-size: 10px;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;

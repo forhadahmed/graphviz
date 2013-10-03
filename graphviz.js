@@ -1,4 +1,5 @@
 var lastdot = "";
+var error = "<div class='error'>XXX</div>"
 
 function load_image(src, callback) {
     var img = new Image();
@@ -7,13 +8,7 @@ function load_image(src, callback) {
 }
 
 function display_error(cell, err) {
-    $.ajax({
-      url: "error.html",
-      success: function( data ) {
-        cell.html(data.replace("XXX", err));
-      },
-      cache: true
-    });   
+    cell.html(error.replace("XXX", err));  
 }
 
 function graph_from_dot(textarea, cell) {
