@@ -19,6 +19,10 @@ git clone https://github.com/forhadahmed/graphviz.git
 
 Now just point your browser to `$SERVER_ROOT/graphviz`
 
+###### Demo
+
+http://forhadahmed.net/graphviz
+
 ###### Screenshot
 
 <p align="center"><img src='graphviz.png'></p>
