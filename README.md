@@ -1,7 +1,7 @@
 Graphviz Web Interface
 ======================
 
-The code here provides a simple web-interface for [graphviz](http://www.graphviz.org/ "Graphviz") - a popular set of tools for graph drawing!
+The code here provides a simple web-interface for [graphviz](http://www.graphviz.org/ "Graphviz") - a cool set of tools for graph drawing!
 
 ###### Pre-requisites
 
