@@ -1,5 +1,4 @@
-Graphviz Web Interface
-======================
+![Graphviz Web Interface](http://forhadahmed.net/github/graphviz-logo.png)
 
 The code here provides a simple web-interface for [graphviz](http://www.graphviz.org/ "Graphviz") - a cool set of tools for graph drawing!
 
