@@ -24,5 +24,5 @@ http://forhadahmed.net/graphviz
 
 ###### Screenshot
 
-<p align="center"><img src='graphviz.png'></p>
+<p align="center"><img src='http://forhadahmed.net/github/graphviz-screenshot.png'></p>
 
