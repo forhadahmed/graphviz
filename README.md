@@ -20,7 +20,7 @@ Now just point your browser to `$SERVER_ROOT/graphviz`
 
 ###### Demo
 
-http://forhadahmed.net/graphviz
+http://circuitsoft.net/graphviz
 
 ###### Screenshot
 
