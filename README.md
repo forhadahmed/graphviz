@@ -1,4 +1,4 @@
-![Graphviz Web Interface](http://forhadahmed.net/github/graphviz-logo.png)
+![Graphviz Web Interface](http://circuitsoft.net/github/graphviz-logo.png)
 
 The code here provides a simple web-interface for [graphviz](http://www.graphviz.org/ "Graphviz") - a cool set of tools for graph drawing!
 
@@ -24,5 +24,5 @@ http://forhadahmed.net/graphviz
 
 ###### Screenshot
 
-<p align="center"><img src='http://forhadahmed.net/github/graphviz-screenshot.png'></p>
+<p align="center"><img src='http://circuitsoft.net/github/graphviz-screenshot.png'></p>
 
